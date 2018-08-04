@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>Odd-Eve Game</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name player-name-bat" id="name-0">You<img src="images/bat.png" class="player-0-fig"></div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current-Hit</div>
+                    <div class="player-current-hit" id="current-0">4</div>
+                </div>
+                <div class="btns-hit">
+                    <button class="hit hit-0">0</button>
+                    <button class="hit hit-1">1</button>
+                    <button class="hit hit-2">2</button>
+                    <button class="hit hit-3">3</button>
+                    <button class="hit hit-4">4</button>
+                    <button class="hit hit-5">5</button>
+                    <button class="hit hit-6">6</button>
+                </div>
+                <img src="images/hit-2.jpg" class="img-hit img-hit__right">
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name player-name-ball" id="name-1">Computer<img src="images/ball.png" class="player-1-fig"></div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current-Hit</div>
+                    <div class="player-current-hit" id="current-1">0</div>
+                </div>
+                <img src="images/hit-0.jpg" class="img-hit img-hit__left">
+            </div>
+                        
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
